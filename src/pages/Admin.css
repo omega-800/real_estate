@@ -1,0 +1,6 @@
+.admin_add{
+    text-decoration: none;
+    background-color: var(--color-main);
+    color: var(--color-light);
+    padding: var(--padding-button);
+}

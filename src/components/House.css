@@ -1,0 +1,63 @@
+.house{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: var(--color-light);
+    padding: var(--padding-main);
+    justify-content: space-between;
+}
+.house_infos *{
+    margin:0;
+}
+.house_infos{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.house_image{
+    width:40%;
+}
+.house_description{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: var(--padding-house);
+}
+.house_edit{
+    text-decoration: none;
+    background-color: var(--color-main);
+    color: var(--color-light);
+    padding: var(--padding-button);
+}
+.apartment_infos *{
+    margin:0;
+}
+.apartment_infos:not(:first-child) {
+    padding-top: var(--padding-house);
+}
+.apartment_infos{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.apartment_infos th:not(:first-child), .apartment_infos td:not(:first-child){
+    border-left: 3px solid #cce6ff;
+}
+.apartment_infos table{
+    text-align: center;
+    border-collapse: collapse;
+    width:100%;
+    table-layout: fixed;
+}
+.apartment_image{
+    width:30%;
+}
+.apartment_description{
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-left: var(--padding-house);
+}
